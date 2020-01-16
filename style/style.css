@@ -1,5 +1,5 @@
 h1 {
-    color: #ffffff;
+    color: #000000;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -13,7 +13,7 @@ h2 {
     font-weight: 900;
 }
 div {
-    border: .1px solid #222222;
+    border: .1px solid #ffffff;
 }
 .divider {
     min-height: 50px;
@@ -29,7 +29,7 @@ div {
 .square {
     min-height: 170px;
     /* background-color: #f6fbff; */
-    border:1px solid lightgrey;
+    border:1px solid #a7a7a7;
     border-radius: 10px;
 }
 .tile:hover .square {
@@ -38,10 +38,10 @@ div {
 }
 .nav {
     font-weight: 100;
-    color: #2e2e2e;
+    color: #d6d6d6;
     padding: 0 10px 0 10px;
 }
 .nav:hover {
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
 }
