@@ -8,13 +8,13 @@ h1 {
     line-height: 40px;
 }
 a {
-    color: inherit;
+    color: inherit !important;
     cursor: pointer;
 }
 a:hover {
-    color: inherit;
-    text-decoration: none;
-    opacity: 80%;;
+    color: inherit !important;
+    text-decoration: none !important;
+    opacity: 80%;
 }
 h2 {
     font-size: 52px;
