@@ -1,0 +1,47 @@
+h1 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 38px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+h2 {
+    font-size: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+div {
+    border: .1px solid #222222;
+}
+.divider {
+    min-height: 50px;
+}
+.tile {
+    padding: 10px;
+    border-radius: 12px;
+}
+.tile:hover {
+    cursor: pointer;
+    padding: 5px;
+}
+.square {
+    min-height: 170px;
+    /* background-color: #f6fbff; */
+    border:1px solid lightgrey;
+    border-radius: 10px;
+}
+.tile:hover .square {
+    /* background-color: rgb(73, 70, 70); */
+    min-height: 180px;
+}
+.nav {
+    font-weight: 100;
+    color: #2e2e2e;
+    padding: 0 10px 0 10px;
+}
+.nav:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
