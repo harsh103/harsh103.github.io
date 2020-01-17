@@ -1,4 +1,4 @@
-h1 {
+.home {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -33,17 +33,20 @@ div {
     cursor: pointer;
 }
 .tile:hover {
-    padding: 5px;
+    padding: 6px;
 }
 .square {
     min-height: 170px;
     /* background-color: #f6fbff; */
-    border:1px solid lightgrey;
+    /* border:1px solid lightgrey; */
     border-radius: 10px;
+    opacity: 90%;
 }
 .tile:hover .square {
     /* background-color: rgb(73, 70, 70); */
-    min-height: 180px;
+    min-height: 178px;
+    background-blend-mode: multiply;
+    opacity: 50%;
 }
 .nav {
     font-weight: 100;
@@ -51,6 +54,48 @@ div {
     padding: 0 10px 0 10px;
 }
 .nav:hover {
-    color: #ffffff;
+    color: #bdbdbd;
     cursor: pointer;
 }
+.thumb {
+    background-color: rgb(211, 69, 69);
+    /* height: 500px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 0 0 8px;
+  }
+  .square_desc {
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    /* background-color: #222222; */
+    display: none;
+  }
+  .tile:hover .square_desc {
+      display: inline;
+  }
+  .comfortable {
+    background-image: url("../img/Comfortable_cover.jpg");
+  }
+  .gh0st {
+    background-image: url("../img/Gh0st_cover.jpg");
+  }
+  .padblock {
+    background-image: url("../img/Padblock_cover.png");
+  }
+  .pair {
+    background-image: url("../img/Pair_cover.png");
+  }
+  .grabngo {
+    background-image: url("../img/Grabngo_cover.png");
+  }
+  .vibes {
+    background-image: url("../img/Vibes_cover.png");
+  }
+  .title {
+    color: #ffffff;
+    font-family: source-code-pro, monospace;
+    font-weight: 100;
+    font-size: 20px;
+  }
