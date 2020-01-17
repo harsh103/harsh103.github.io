@@ -1,3 +1,6 @@
+body {
+    background-color: #03030e;
+}
 .home {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
@@ -21,9 +24,9 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
-div {
+/* div {
     border: .1px solid #222222;
-}
+} */
 .divider {
     min-height: 50px;
 }
@@ -49,12 +52,18 @@ div {
     opacity: 50%;
 }
 .nav {
+    color: #7878ca;
     font-weight: 100;
-    color: #2e2e2e;
+    opacity: 20%;
     padding: 0 10px 0 10px;
 }
+.nav_selected {
+    color: white;
+    opacity: 80%;
+}
 .nav:hover {
-    color: #bdbdbd;
+    color: white;
+    opacity: 80%;
     cursor: pointer;
 }
 .thumb {
