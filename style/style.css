@@ -25,7 +25,7 @@ h2 {
     font-weight: 900;
 }
 /* div {
-    border: .1px solid #222222;
+    border: .1px solid #101033;
 } */
 .divider {
     min-height: 50px;
@@ -47,15 +47,17 @@ h2 {
 }
 .tile:hover .square {
     /* background-color: rgb(73, 70, 70); */
+    box-shadow: 3px 3px 35px #000000;
     min-height: 178px;
     background-blend-mode: multiply;
     opacity: 50%;
 }
 .nav {
-    color: #7878ca;
+    color: #29295e;
+    display: inline;
+    font-size: 16px;
     font-weight: 100;
-    opacity: 20%;
-    padding: 0 10px 0 10px;
+    padding: 20px 10px 6px 10px;
 }
 .nav_selected {
     color: white;
@@ -72,7 +74,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 55px 0 0 8px;
+    padding: 5px;
   }
   .square_desc {
     color: white;
@@ -104,7 +106,14 @@ h2 {
   }
   .title {
     color: #ffffff;
-    font-family: source-code-pro, monospace;
-    font-weight: 100;
-    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+  }
+  .desc {
+      color: #cccccc;
+      font-family: monospace;
+      padding-left: 10px;
   }
