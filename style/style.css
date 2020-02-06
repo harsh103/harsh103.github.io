@@ -1,5 +1,5 @@
 body {
-    background-color: #03030e;
+    background-color: #040414;
 }
 .home {
     color: #ffffff;
@@ -112,8 +112,17 @@ h2 {
     font-size: 30px;
     text-align: center;
   }
-  .desc {
+  .bio {
       color: #cccccc;
       font-family: monospace;
       padding-left: 10px;
   }
+  .desc {
+    color: #cbcbe6;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 500;
+    /* padding-left: 10px; */
+    text-align: center;
+}
