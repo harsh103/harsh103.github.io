@@ -1,14 +1,89 @@
+/* div {
+    border: .1px solid black;
+} */
 body {
-    background-color: #040414;
+  font-family: Roboto;
+  font-style: normal;
+  background-image: url("../img/sneakycats.jpg");
+}
+.header {
+  background-color: #06061F;
+  height: 85vh;
+}
+.navbox {
+  background-color: #0734FF;
+  min-height: 100vh;
 }
 .home {
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 38px;
-    text-transform: uppercase;
-    line-height: 40px;
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 120px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.title {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.button {
+  padding:10px 55px;;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #0734FF;
+  display: inline-flex;
+  justify-content: center;
+  border: 5px solid #0734FF;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.button:hover {
+  border: 5px solid #0734FF;
+  background-color: #06061F;
+  cursor: pointer;
+}
+.tagline {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 28px;
+  color: #0734FF;
+}
+.underline {
+  min-height: 50px;
+  border-bottom: 4px solid white;
+}
+.navproject {
+  padding:35px 90px;;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  color: #ffffff;
+  background-color: #0734FF;
+  border: 4px solid white;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.navproject:hover {
+  border: 4px solid black;
+  background-color: black;
+  cursor: pointer;
+}
+.navlink {
+  transition: 0.3s;
+}
+.navlink:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.construction {
+  color:red;
+  justify-content: center;
 }
 a {
     color: inherit !important;
@@ -24,10 +99,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
-/* div {
-    border: .1px solid #101033;
-} */
-.divider {
+.spacer {
     min-height: 50px;
 }
 .tile {
@@ -51,78 +123,4 @@ h2 {
     min-height: 178px;
     background-blend-mode: multiply;
     opacity: 50%;
-}
-.nav {
-    color: #29295e;
-    display: inline;
-    font-size: 16px;
-    font-weight: 100;
-    padding: 20px 10px 6px 10px;
-}
-.nav_selected {
-    color: white;
-    opacity: 80%;
-}
-.nav:hover {
-    color: white;
-    opacity: 80%;
-    cursor: pointer;
-}
-.thumb {
-    background-color: rgb(211, 69, 69);
-    /* height: 500px; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 5px;
-  }
-  .square_desc {
-    color: white;
-    font-weight: 900;
-    font-size: 25px;
-    /* background-color: #222222; */
-    display: none;
-  }
-  .tile:hover .square_desc {
-      display: inline;
-  }
-  .comfortable {
-    background-image: url("../img/Comfortable_cover.jpg");
-  }
-  .gh0st {
-    background-image: url("../img/Gh0st_cover.jpg");
-  }
-  .padblock {
-    background-image: url("../img/Padblock_cover.png");
-  }
-  .pair {
-    background-image: url("../img/Pair_cover.png");
-  }
-  .grabngo {
-    background-image: url("../img/Grabngo_cover.png");
-  }
-  .vibes {
-    background-image: url("../img/Vibes_cover.png");
-  }
-  .title {
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    font-size: 30px;
-    text-align: center;
-  }
-  .bio {
-      color: #cccccc;
-      font-family: monospace;
-      padding-left: 10px;
-  }
-  .desc {
-    color: #cbcbe6;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-size: 14px;
-    font-weight: 500;
-    /* padding-left: 10px; */
-    text-align: center;
 }
