@@ -17,11 +17,11 @@
         <div class="row header">
             <div class="container">
                 <div class="row" style="margin-top: 20vh">
-                    <div class="col-6 home mb-5 p-0">
+                    <div class="col-12 col-md-6 home mb-5 p-0">
                         <span class="home m-0">Harsh <br> Singhal</span>
                     </div>
-                    <div class="col mt-3" style="border-top: 3px solid white"></div>
-                    <div class="col-auto mt-2 ml-5">
+                    <div class="col d-none d-md-block  mt-3" style="border-top: 3px solid white"></div>
+                    <div class="col-auto d-none d-md-block mt-2 ml-5">
                         <div class="row justify-content-end">
                             <span class="title" style="text-align: right;">
                                 Designer<br>Developer<br>Artist
@@ -30,17 +30,31 @@
                         <div class="row mt-5" style="border-right: 3px solid white; min-height: 120%"></div>
                     </div>
                 </div>
+                <div class="row d-sm-none justify-content-center mb-5">
+                    <span style="text-align: center; color: white; font-size:25px; font-weight: 100">
+                        DESIGNER<br>DEVELOPER<br>ARTIST
+                    </span>
+                </div>
+                <div class="row d-none d-sm-block d-md-none mb-5">
+                    <span style="color: white; font-size:25px; font-weight: 100">
+                        DESIGNER. DEVELOPER. ARTIST.
+                    </span>
+                </div>
                 <div class="row">
-                    <div class="col-6 justify-content-between">
-                        <div class="row mb-5">
-                            <div class="col-auto button resume" onclick="location.href='ResumeHarsh_01-24-20.pdf';">
+                    <div class="col-12 col-xl-6 justify-content-between">
+                        <div class="row mb-5 justify-content-center justify-content-sm-start">
+                            <div class="col-7 col-sm-auto button resume"
+                                onclick="location.href='ResumeHarsh_01-24-20.pdf';">
                                 <span>Resume</span></div>
-                            <div style="width: 13%"></div>
-                            <div class="col-auto button connect"
+                            <div class="d-none d-sm-block" style="width: 13%"></div>
+                            <div class="col-7 d-sm-none" style="min-height: 20px"></div>
+                            <div class="col-7 col-sm-auto button connect"
                                 onclick="location.href='https://www.linkedin.com/in/helloharsh';">
                                 <span>Connect</span></div>
                         </div>
-                        <div class="row tagline pt-5">Currently searching for the next challenge.</div>
+                        <div class="row d-none d-md-block tagline pt-5" style="margin-bottom:150px;">
+                            Currently searching for the next challenge.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -50,7 +64,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-1"></div>
-                    <div class="col">
+                    <div class="col-10">
                         <div class="row" style="min-height: 20vh"></div>
                         <div class="row title">Case Studies</div>
                         <div class="row underline"></div>
@@ -61,8 +75,9 @@
                         <div class="row navproject connect" style="margin-top:25px; opacity:20%; cursor: copy;"
                             onclick="location.href='https://www.linkedin.com/in/helloharsh';">
                             Your Project.</div>
-                        <div class="row title justify-content-between" style="margin:200px 0px;">
-                            <span class="navlink">Visual Effects</span>
+                        <div class="row title justify-content-center justify-content-md-between"
+                            style="margin:200px 0px;">
+                            <span class="navlink">Visual Effects</span><br><br>
                             <span class="navlink">Traditional Art</span>
                         </div>
                         <div class="row construction">*site under construction*</div>

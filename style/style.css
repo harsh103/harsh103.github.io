@@ -1,5 +1,5 @@
 /* div {
-    border: .1px solid black;
+    border: .1px solid darkgrey;
 } */
 body {
   font-family: Roboto;
@@ -9,6 +9,7 @@ body {
 .header {
   background-color: #06061F;
   height: 85vh;
+  align-items: flex-end;
 }
 .navbox {
   background-color: #0734FF;
@@ -85,6 +86,36 @@ body {
   color:red;
   justify-content: center;
 }
+
+
+@media (max-width: 575px) {
+  .home {
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+  }
+  .header {
+    align-items: flex-start;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    height: 95vh;
+  }
+  .title {
+    text-align: center;
+  }
+  .navproject {
+    padding: 35px 50px;
+  }
+  .navlink {
+    font-size: 24px;
+  }
+}
+
+
+
+
 a {
     color: inherit !important;
     cursor: pointer;
