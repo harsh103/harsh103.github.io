@@ -43,7 +43,7 @@ body {
   justify-content: center;
   border: 5px solid #0734FF;
   box-sizing: border-box;
-  transition: 0.3s;
+  transition: background-color 0.3s;
 }
 .button:hover {
   border: 5px solid #0734FF;
@@ -69,7 +69,7 @@ body {
   background-color: #0734FF;
   border: 4px solid white;
   box-sizing: border-box;
-  transition: 0.3s;
+  transition: background-color 0.3s;
 }
 .navproject:hover {
   border: 4px solid black;
@@ -82,7 +82,7 @@ body {
   cursor: pointer;
 }
 .navlink {
-  transition: 0.3s;
+  transition: opacity 0.3s;
 }
 .navlink:hover {
   opacity: 0.5;
